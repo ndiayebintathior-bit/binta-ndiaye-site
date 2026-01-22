@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Binta Thior Ndiaye | Relation client</title>
+  <style>
+    :root {
+      --primary:#0f172a;
+      --secondary:#2563eb;
+      --bg:#f8fafc;
+    }
+    body { font-family: 'Segoe UI', Arial, sans-serif; margin:0; background:var(--bg); color:#1f2937; }
+    header { background:linear-gradient(135deg,var(--primary),var(--secondary)); color:white; padding:60px 20px; text-align:center; }
+    header h1 { font-size:2.2rem; margin-bottom:10px; }
+    header p { margin:5px 0; }
+    nav { display:flex; justify-content:center; gap:15px; margin-top:20px; flex-wrap:wrap; }
+    nav a { color:white; text-decoration:none; font-weight:500; }
+    section { padding:50px 20px; max-width:1000px; margin:auto; }
+    h2 { color:var(--primary); margin-bottom:15px; }
+    .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:20px; }
+    .card { background:white; padding:25px; border-radius:16px; box-shadow:0 10px 25px rgba(0,0,0,0.08); }
+    .btn { display:inline-block; padding:12px 20px; background:var(--secondary); color:white; border-radius:30px; text-decoration:none; margin-top:10px; }
+    footer { background:var(--primary); color:white; text-align:center; padding:25px; }
+    form input, form textarea { width:100%; padding:12px; margin-bottom:12px; border-radius:10px; border:1px solid #cbd5e1; }
+    @media (max-width:600px){ header h1{font-size:1.8rem;} }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Binta Thior Ndiaye</h1>
+  <p>Chargée de relation client / Conseillère clientèle</p>
+  <p>Dakar, Sénégal · +221 77 673 01 90 · ndiayebintathior@gmail.com</p>
+  <nav>
+    <a href="#profil">Profil</a>
+    <a href="#experience">Expériences</a>
+    <a href="#competences">Compétences</a>
+    <a href="#contact">Contact</a>
+    <a href="cv.pdf" class="btn">Télécharger mon CV</a>
+  </nav>
+</header>
+
+<section id="profil">
+  <h2>Profil</h2>
+  <div class="card">
+    <p>Professionnelle de la relation client avec une solide expérience en conseil client multicanal, service après-vente, support digital et gestion commerciale. Orientée satisfaction et fidélisation client.</p>
+  </div>
+</section>
+
+<section id="experience">
+  <h2>Expériences professionnelles</h2>
+  <div class="grid">
+    <div class="card"><b>Gérante de boutique</b><br/>Shengyu Mastic Silicone Industries<br/>2024–2026</div>
+    <div class="card"><b>Conseillère commerciale</b><br/>Foundever<br/>2024</div>
+    <div class="card"><b>Agent recenseur</b><br/>RGPH<br/>2023</div>
+  </div>
+</section>
+
+<section id="competences">
+  <h2>Compétences</h2>
+  <div class="grid">
+    <div class="card">Relation client & service clientèle</div>
+    <div class="card">Support digital & communication</div>
+    <div class="card">Gestion de stock & commandes</div>
+    <div class="card">Techniques de vente</div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <div class="card">
+    <form>
+      <input type="text" placeholder="Votre nom" />
+      <input type="email" placeholder="Votre email" />
+      <textarea rows="4" placeholder="Votre message"></textarea>
+      <button class="btn" type="submit">Envoyer</button>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Binta Thior Ndiaye</p>
+  
+</footer>
+
+</body>
+</html>
